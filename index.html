@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aninda Bhattacharjee | Master's Student in CSE · University of Aizu</title>
+  <meta name="description" content="Personal academic and professional portfolio of Aninda Bhattacharjee. Master's Student in Computer Science and Engineering at University of Aizu under Prof. Truong Cong Thang, Assistant Director at National Cyber Security Agency (ICT Division, Bangladesh), and Research Assistant at University of Nebraska, Omaha.">
+  <meta name="author" content="Aninda Bhattacharjee">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Fonts (Inter, Newsreader, JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand-link" data-tab="home">
+        <span class="brand-monogram">AB</span>
+        <span>Aninda Bhattacharjee</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active" data-tab="home">Home</a></li>
+        <li><a href="#education" class="nav-link" data-tab="education">Education</a></li>
+        <li><a href="#research" class="nav-link" data-tab="research">Research</a></li>
+        <li><a href="#experience" class="nav-link" data-tab="experience">Experience</a></li>
+        <li><a href="#certifications" class="nav-link" data-tab="certifications">Certifications</a></li>
+        <li><a href="#skills" class="nav-link" data-tab="skills">Skills &amp; Awards</a></li>
+        <li><a href="#contact" class="nav-link" data-tab="contact">Contact</a></li>
+      </ul>
+
+      <!-- Action Items: Theme Switcher & Mobile Toggle -->
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle Color Theme" title="Switch Theme">
+          <!-- Filled dynamically by JavaScript -->
+        </button>
+        <button id="mobileToggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+
+    <!-- ====================================================================
+         SECTION 1: HOME
+         ==================================================================== -->
+    <section id="home" class="tab-content active">
+      <!-- Profile Card (Hero) -->
+      <div class="profile-card">
+        <div class="profile-avatar-wrap">
+          <img src="assets/profile.jpg" alt="Aninda Bhattacharjee" class="profile-avatar">
+          <span class="status-indicator" title="Active in Cybersecurity &amp; AI Research"></span>
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">Aninda Bhattacharjee</h1>
+          <div class="profile-title">Master's Student in Computer Science &amp; Engineering · University of Aizu | Assistant Director · National Cyber Security Agency</div>
+          <div class="profile-location">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span>Aizuwakamatsu, Fukushima, Japan · Dhaka, Bangladesh</span>
+          </div>
+
+          <!-- Quick Action / Social Pills -->
+          <div class="social-pills">
+            <a href="mailto:bhattacharjee.aninda15@gmail.com" class="pill-btn primary-pill">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>bhattacharjee.aninda15@gmail.com</span>
+            </a>
+            <a href="tel:+8801705571463" class="pill-btn">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>+88 01705571463</span>
+            </a>
+            <a href="https://www.linkedin.com/in/aninda-bhattacharjee-693355132/" target="_blank" rel="noopener noreferrer" class="pill-btn">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Interests Highlights -->
+      <h2 class="section-title">Research Interests</h2>
+      <div class="research-domains-grid">
+        <div class="research-domain-card">
+          <div class="research-domain-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.38-1 1.72V7h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h4V5.72c-.6-.34-1-.98-1-1.72a2 2 0 0 1 2-2M9 11a1.5 1.5 0 0 0-1.5 1.5A1.5 1.5 0 0 0 9 14a1.5 1.5 0 0 0 1.5-1.5A1.5 1.5 0 0 0 9 11m6 0a1.5 1.5 0 0 0-1.5 1.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5A1.5 1.5 0 0 0 15 11m-6 5v2h6v-2H9z"/></svg>
+          </div>
+          <div class="research-domain-title">Robotics</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+          </div>
+          <div class="research-domain-title">Computer Vision</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+          </div>
+          <div class="research-domain-title">Natural Language Processing</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+          </div>
+          <div class="research-domain-title">Computer Security</div>
+        </div>
+      </div>
+
+      <!-- About / Overview Section -->
+      <div class="bio-content">
+        <h2 class="section-title">Overview</h2>
+        <p>
+          I am <strong>Aninda Bhattacharjee</strong>, currently pursuing my <strong>Master of Science in Computer Science and Engineering</strong> at the <strong>University of Aizu (Japan)</strong> under the supervision of <strong>Professor Truong Cong Thang</strong>.
+        </p>
+        <p>
+          I also serve as an <strong>Assistant Director</strong> at the <strong>National Cyber Security Agency, ICT Division, People’s Republic of Bangladesh</strong>. In this capacity, I specialize in the development and analysis of cybersecurity legal frameworks, regulatory policies, cross-platform social listening, quantitative content analysis, and the promotion of socio-technical awareness regarding cybersecurity best practices and digital hygiene.
+        </p>
+        <p>
+          Concurrently, I work as a remote <strong>Research Assistant</strong> with <strong>Dr. Jaydeb Sarker</strong> at the <strong>University of Nebraska, Omaha</strong>, focusing on bug report analysis in the field of software engineering and the explainability of Generative AI.
+        </p>
+        <p>
+          Previously, I served as an <strong>Assistant Programmer</strong> in the Department of ICT, ICT Division, where I oversaw the monitoring of 2,000 digital labs across secondary and higher secondary schools and developed a standardized Python programming curriculum and instructional manual for 27,000 higher secondary students in Bangladesh.
+        </p>
+        <p>
+          I earned my <strong>Bachelor of Science in Computer Science &amp; Engineering</strong> from <strong>Rajshahi University of Engineering &amp; Technology (RUET)</strong> (Jan. 2015 – Aug. 2019) with a CGPA of 3.19/4.00, completing my undergraduate thesis on <em>Comparative Analysis between K-Means Clustering and K-Medoid Clustering</em>.
+        </p>
+      </div>
+
+      <!-- Quick Summary Cards -->
+      <div class="skills-container" style="margin-top: 2rem;">
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+            <span>Education</span>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-primary); font-weight: 600;">M.Sc. in Computer Science &amp; Engineering</p>
+          <p style="font-size: 0.88rem; color: var(--text-secondary);">University of Aizu, Japan · Supervised by Prof. Truong Cong Thang</p>
+          <p style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-secondary); margin-top: 0.15rem;">October, 2026 – October, 2028</p>
+          <div style="margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.9rem; color: var(--text-primary); font-weight: 600;">B.Sc. in Computer Science &amp; Engineering</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">Rajshahi University of Engineering &amp; Technology (RUET)</p>
+            <p style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-secondary); margin-top: 0.15rem;">CGPA: 3.19/4.00 (Jan. 2015 – Aug. 2019)</p>
+          </div>
+          <div style="margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.9rem; color: var(--text-primary); font-weight: 600;">Higher Secondary Certificate (HSC)</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">Birshrestha Noor Mohammad Public College, Dhaka</p>
+            <p style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-secondary); margin-top: 0.15rem;">2012 – 2014</p>
+          </div>
+          <div style="margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid var(--border-color);">
+            <p style="font-size: 0.9rem; color: var(--text-primary); font-weight: 600;">Secondary School Certificate (SSC)</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">Monipur High School, Dhaka, Bangladesh</p>
+            <p style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-secondary); margin-top: 0.15rem;">2002 – 2012</p>
+          </div>
+        </div>
+
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+            <span>Award &amp; Project</span>
+          </div>
+          <p style="font-size: 0.92rem; color: var(--text-primary); font-weight: 600;">2nd Runner-up (Games &amp; Augmented Reality)</p>
+          <p style="font-size: 0.88rem; color: var(--text-secondary);">EATL-Prothom Alo App Contest sponsored by World Bank (2016)</p>
+          <p style="font-size: 0.82rem; font-family: var(--font-mono); color: var(--accent-secondary); margin-top: 0.25rem;">Android App: "DANGUL" · Team TRU-BLU (RUET)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: EDUCATION
+         ==================================================================== -->
+    <section id="education" class="tab-content">
+      <h2 class="section-title">Education</h2>
+      <p class="section-desc">
+        Graduate and undergraduate academic qualifications, research supervision, and thesis details.
+      </p>
+
+      <!-- Master's Degree -->
+      <div class="experience-card" style="border-left: 4px solid var(--accent-primary);">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Master of Science in Computer Science &amp; Engineering</div>
+            <div class="exp-company">University of Aizu, Fukushima, Japan</div>
+          </div>
+          <span class="exp-period">October, 2026 – October, 2028</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><strong>Supervisor:</strong> Professor Truong Cong Thang</li>
+          <li><strong>Research Focus:</strong> Advanced Computer Science and Engineering, Computer Vision, Multimedia Systems</li>
+        </ul>
+      </div>
+
+      <!-- Bachelor's Degree -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Bachelor of Science in Computer Science &amp; Engineering</div>
+            <div class="exp-company">Rajshahi University of Engineering &amp; Technology (RUET)</div>
+          </div>
+          <span class="exp-period">Jan. 2015 – Aug. 2019</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><strong>CGPA:</strong> 3.19 / 4.00</li>
+          <li><strong>Undergraduate Thesis:</strong> Comparative Analysis between K-Means Clustering and K-Medoid Clustering</li>
+        </ul>
+      </div>
+
+      <!-- Higher Secondary / College -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Higher Secondary Certificate (HSC) / College</div>
+            <div class="exp-company">Birshrestha Noor Mohammad Public College</div>
+          </div>
+          <span class="exp-period">2012 – 2014</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Higher secondary education in Science.</li>
+        </ul>
+      </div>
+
+      <!-- Secondary School -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Secondary School Certificate (SSC) / School</div>
+            <div class="exp-company">Monipur High School</div>
+          </div>
+          <span class="exp-period">2002 – 2012</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Foundational education with focus on science and mathematics.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: RESEARCH
+         ==================================================================== -->
+    <section id="research" class="tab-content">
+      <h2 class="section-title">Research &amp; Scholarly Work</h2>
+      <p class="section-desc">
+        Ongoing research investigations, lab appointments, and thesis projects.
+      </p>
+
+      <!-- University of Aizu Graduate Research -->
+      <div class="experience-card" style="border-left: 4px solid var(--accent-primary);">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Graduate Research (Master's Student)</div>
+            <div class="exp-company">Under Professor Truong Cong Thang, University of Aizu</div>
+          </div>
+          <span class="exp-period">Currently Pursuing</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Location: Aizuwakamatsu, Fukushima, Japan</p>
+        <ul class="exp-bullets">
+          <li>Conducting graduate research in Computer Science and Engineering under the supervision of Professor Truong Cong Thang.</li>
+        </ul>
+      </div>
+
+      <!-- Active Research Appointment: University of Nebraska, Omaha -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Research Assistant (Remote)</div>
+            <div class="exp-company">Dr. Jaydeb Sarker, University of Nebraska, Omaha</div>
+          </div>
+          <span class="exp-period">Oct. 2024 – Present</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Location: Nebraska, USA (Remote)</p>
+        <ul class="exp-bullets">
+          <li><strong>Bug Report Analysis:</strong> Empirical research in the field of Software Engineering.</li>
+          <li><strong>Explainability of Generative AI:</strong> Investigating interpretability, explainability mechanisms, and decision transparency in generative AI models.</li>
+        </ul>
+      </div>
+
+      <!-- Undergraduate Thesis -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Undergraduate Thesis Research</div>
+            <div class="exp-company">Rajshahi University of Engineering &amp; Technology (RUET)</div>
+          </div>
+          <span class="exp-period">2018 – 2019</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><strong>Topic:</strong> Comparative Analysis between K-Means Clustering and K-Medoid Clustering.</li>
+          <li>Conducted comparative evaluations on clustering partition stability, computational complexity, distance metric sensitivity, and robustness against noise and outliers.</li>
+        </ul>
+      </div>
+
+      <!-- Research Domains -->
+      <h3 style="font-size: 1.15rem; margin: 2rem 0 1rem; color: var(--text-accent);">Primary Research Interests</h3>
+      <div class="research-domains-grid">
+        <div class="research-domain-card">
+          <div class="research-domain-title">Robotics</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-title">Computer Vision</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-title">Natural Language Processing</div>
+        </div>
+        <div class="research-domain-card">
+          <div class="research-domain-title">Computer Security</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 4: EXPERIENCE
+         ==================================================================== -->
+    <section id="experience" class="tab-content">
+      <h2 class="section-title">Professional Experience</h2>
+      <p class="section-desc">
+        Career history in national cybersecurity agencies, ICT divisions, and academic research institutions.
+      </p>
+
+      <!-- Role 1 -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Assistant Director</div>
+            <div class="exp-company">National Cyber Security Agency, ICT Division, People’s Republic of Bangladesh</div>
+          </div>
+          <span class="exp-period">Jul. 2025 – Present</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Dhaka, Bangladesh</p>
+        <ul class="exp-bullets">
+          <li>Specialising in the development and analysis of cybersecurity legal frameworks and regulatory policies.</li>
+          <li>Specializing in cross-platform social listening and quantitative content analysis.</li>
+          <li>Promoting socio-technical awareness regarding cybersecurity best practices and digital hygiene.</li>
+        </ul>
+      </div>
+
+      <!-- Role 2 -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Research Assistant (Remote)</div>
+            <div class="exp-company">Dr. Jaydeb Sarker, University of Nebraska, Omaha</div>
+          </div>
+          <span class="exp-period">Oct. 2024 – Present</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Nebraska, USA</p>
+        <ul class="exp-bullets">
+          <li>Bug report Analysis in the field of Software Engineering.</li>
+          <li>Explainability of Generative AI.</li>
+        </ul>
+      </div>
+
+      <!-- Role 3 -->
+      <div class="experience-card">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">Assistant Programmer</div>
+            <div class="exp-company">Department of ICT, ICT Division, People’s Republic of Bangladesh</div>
+          </div>
+          <span class="exp-period">Dec. 2022 – Jul. 2025</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.5rem;">Dhaka, Bangladesh</p>
+        <ul class="exp-bullets">
+          <li>Responsible for monitoring 2,000 digital labs established in secondary and higher secondary schools across Bangladesh.</li>
+          <li>Developing a standardized Python programming curriculum and instructional manual for 27,000 higher secondary students.</li>
+          <li>Developing a manual for higher secondary school teachers on learning management systems for school automation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 5: CERTIFICATIONS AND PROFESSIONAL TRAINING
+         ==================================================================== -->
+    <section id="certifications" class="tab-content">
+      <h2 class="section-title">Certifications &amp; Professional Training</h2>
+      <p class="section-desc">
+        Specialized government, international, and university training programs in cybersecurity, public administration, and emerging AI technologies.
+      </p>
+
+      <div class="cert-list">
+        
+        <!-- Cert 1 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Academy Training on Cybersecurity for Bangladesh Officials</h4>
+            <div class="cert-issuer">Asian and Pacific Training Centre for Information and Communication Technology for Development (APCICT–ESCAP), ICT Division and Bangladesh Computer Council (BCC), Dhaka, Bangladesh</div>
+            <div class="cert-date">7–8 December 2025</div>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Advanced Cyber Security, Digital Skills Training for Government Officials</h4>
+            <div class="cert-issuer">Under the Enhancing Digital Government and Economy (EDGE) Project, Bangladesh Computer Council (BCC), ICT Division</div>
+            <div class="cert-date">24–28 August 2025</div>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Modern Office Management</h4>
+            <div class="cert-issuer">Department of Information and Communication Technology (DoICT), Agargaon, Dhaka, Bangladesh</div>
+            <div class="cert-date">20–24 April 2025</div>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.38-1 1.72V7h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h4V5.72c-.6-.34-1-.98-1-1.72a2 2 0 0 1 2-2z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Emerging Technologies to Mitigate the Challenges of the Fourth Industrial Revolution (AI Driven Data Analytics)</h4>
+            <div class="cert-issuer">Department of Information and Communication Technology (DoICT), Agargaon, Dhaka, Bangladesh</div>
+            <div class="cert-date">7–9 May 2024</div>
+          </div>
+        </div>
+
+        <!-- Cert 5 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>19th Special Foundation Training Course</h4>
+            <div class="cert-issuer">Bangladesh Public Administration Training Centre (BPATC), Savar, Dhaka, Bangladesh</div>
+            <div class="cert-date">12 May–17 July 2025</div>
+          </div>
+        </div>
+
+        <!-- Cert 6 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Object-Orientated Programming in Java</h4>
+            <div class="cert-issuer">University of California, San Diego (offered through Coursera)</div>
+            <div class="cert-date">March 2022</div>
+          </div>
+        </div>
+
+        <!-- Cert 7 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.38-1 1.72V7h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h4V5.72c-.6-.34-1-.98-1-1.72a2 2 0 0 1 2-2z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>IDEA Contest 2015 (Participant and Presenter)</h4>
+            <div class="cert-issuer">Robotic Society of Rajshahi University of Engineering &amp; Technology (RUET), Rajshahi, Bangladesh</div>
+            <div class="cert-date">2015</div>
+          </div>
+        </div>
+
+        <!-- Cert 8 -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <div class="cert-info">
+            <h4>Certificate of Appreciation</h4>
+            <div class="cert-issuer">Department of Computer Science and Engineering, Rajshahi University of Engineering &amp; Technology (RUET), for organisational contribution to CSE Night 2018</div>
+            <div class="cert-date">2018</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 6: SKILLS & COMPETITIONS
+         ==================================================================== -->
+    <section id="skills" class="tab-content">
+      <h2 class="section-title">Skills &amp; Competitions</h2>
+      <p class="section-desc">
+        Technical proficiencies, programming languages, mathematical foundations, and competitive achievements.
+      </p>
+
+      <!-- Competition Feature Card -->
+      <h3 style="font-size: 1.15rem; margin-bottom: 1rem; color: var(--text-accent);">Competition &amp; Awards</h3>
+      <div class="experience-card" style="border-left: 4px solid var(--accent-secondary);">
+        <div class="exp-header">
+          <div>
+            <div class="exp-role">EATL-Prothom Alo App Contest sponsored by World Bank</div>
+            <div class="exp-company">Team TRU-BLU · Rajshahi University of Engineering &amp; Technology</div>
+          </div>
+          <span class="exp-period">2016</span>
+        </div>
+        <ul class="exp-bullets">
+          <li><strong>Project:</strong> Developed the Android application <strong>“DANGUL”</strong> as part of team <strong>TRU-BLU</strong>, representing Rajshahi University of Engineering &amp; Technology.</li>
+          <li><strong>Achievement:</strong> <strong>2nd runner-up</strong> of Category C – Games and Augmented Reality.</li>
+        </ul>
+      </div>
+
+      <!-- Skills Breakdown Grid -->
+      <h3 style="font-size: 1.15rem; margin: 2rem 0 1rem; color: var(--text-accent);">Technical Skill Set</h3>
+      <div class="skills-container">
+        
+        <!-- Skill Group 1 -->
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+            <span>Programming</span>
+          </div>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">Object-Oriented Programming (OOP)</span>
+            <span class="skill-pill">Data Structures and Algorithms</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 2 -->
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            <span>Data Science, ML &amp; DL</span>
+          </div>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill">Data Analysis &amp; Visualization</span>
+            <span class="skill-pill">Artificial Neural Networks (ANN)</span>
+            <span class="skill-pill">Convolutional Neural Networks (CNN)</span>
+            <span class="skill-pill">Large Language Models (LLM)</span>
+            <span class="skill-pill">Supervised Learning</span>
+            <span class="skill-pill">Unsupervised Learning</span>
+            <span class="skill-pill">Feature Engineering</span>
+            <span class="skill-pill">Feature Selection &amp; Extraction</span>
+            <span class="skill-pill">Fine-tuning</span>
+            <span class="skill-pill">Model Training</span>
+            <span class="skill-pill">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 3 -->
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+            <span>Frameworks &amp; Tools</span>
+          </div>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill">OpenCV</span>
+            <span class="skill-pill">NumPy</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">Scikit-learn</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 4 -->
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14h-2v-4H6v-2h4V7h2v4h4v2h-4v4z"/></svg>
+            <span>Mathematics for ML</span>
+          </div>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill">Linear Algebra</span>
+            <span class="skill-pill">Statistics</span>
+            <span class="skill-pill">Probability</span>
+            <span class="skill-pill">Geometry</span>
+            <span class="skill-pill">Matrix Theory</span>
+          </div>
+        </div>
+
+        <!-- Skill Group 5 -->
+        <div class="skills-category-card">
+          <div class="skills-category-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="var(--accent-secondary)"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span>Miscellaneous</span>
+          </div>
+          <div class="skills-tags-wrap">
+            <span class="skill-pill">LaTeX</span>
+            <span class="skill-pill">MS Office</span>
+            <span class="skill-pill">Adobe Illustrator</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 7: CONTACT
+         ==================================================================== -->
+    <section id="contact" class="tab-content">
+      <h2 class="section-title">Contact Information</h2>
+      <p class="section-desc">
+        Feel free to get in touch via email, phone, or LinkedIn.
+      </p>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Channels -->
+        <div class="contact-card">
+          <h3 style="font-size: 1.15rem; margin-bottom: 1.25rem; color: var(--text-primary);">Channels</h3>
+          
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <a href="mailto:bhattacharjee.aninda15@gmail.com">bhattacharjee.aninda15@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <a href="tel:+8801705571463">+88 01705571463</a>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </div>
+            <div class="contact-details">
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/aninda-bhattacharjee-693355132/" target="_blank" rel="noopener noreferrer">Aninda Bhattacharjee</a>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div class="contact-details">
+              <h4>Location</h4>
+              <p>Dhaka, Bangladesh</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Quick Message Form -->
+        <div class="contact-card">
+          <h3 style="font-size: 1.15rem; margin-bottom: 1.25rem; color: var(--text-primary);">Send a Message</h3>
+          
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="senderName">Your Name</label>
+              <input type="text" id="senderName" class="form-control" placeholder="e.g. Dr. Alex Morgan" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail">Email Address</label>
+              <input type="email" id="senderEmail" class="form-control" placeholder="e.g. alex@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage">Message</label>
+              <textarea id="senderMessage" class="form-control" placeholder="Write your message or collaboration inquiry..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        © 2026 Aninda Bhattacharjee · Dhaka, Bangladesh
+      </div>
+      <div class="footer-links">
+        <a href="mailto:bhattacharjee.aninda15@gmail.com">Email</a>
+        <a href="tel:+8801705571463">Phone</a>
+        <a href="https://www.linkedin.com/in/aninda-bhattacharjee-693355132/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#home" data-tab="home">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
