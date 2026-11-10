@@ -6,7 +6,7 @@ A modern, minimalist personal website inspired by the clean academic layout of [
 
 ## 🌟 Key Highlights & Design Adaptations
 
-1. **Design Architecture (Inspired by hasib.xyz)**
+
    - **Academic Minimalism:** Clean, typography-driven structure with comfortable reading widths (`~920px max-width`).
    - **Full Navigation Hierarchy:**
      - **Home:** Profile hero card with your real photo (`assets/profile.jpg`), current roles (University of Aizu, National Cyber Security Agency), research interest cards, and bio overview.
