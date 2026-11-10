@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mntSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="40%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#bae6fd" />
+      <stop offset="100%" stop-color="#f0f9ff" />
+    </linearGradient>
+    <linearGradient id="snow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#mntSky)" />
+  <!-- Distant Peak -->
+  <polygon points="120,400 280,110 440,400" fill="#334155" />
+  <polygon points="280,110 240,180 280,170 320,180" fill="url(#snow)" />
+
+  <!-- Middle Mountains -->
+  <polygon points="0,400 160,160 340,400" fill="#1e293b" />
+  <polygon points="160,160 120,220 160,210 200,230" fill="url(#snow)" />
+
+  <polygon points="260,400 450,140 600,400" fill="#1e293b" />
+  <polygon points="450,140 400,210 440,200 490,220" fill="url(#snow)" />
+
+  <!-- Foreground Ridge -->
+  <polygon points="-20,400 180,260 400,400" fill="#0f172a" />
+  <polygon points="220,400 480,270 620,400" fill="#090d16" />
+
+  <!-- Pine trees on ridge -->
+  <polygon points="120,290 125,270 130,290" fill="#022c22" />
+  <polygon points="135,285 140,260 145,285" fill="#022c22" />
+  <polygon points="150,295 155,275 160,295" fill="#022c22" />
+  <polygon points="420,300 425,280 430,300" fill="#022c22" />
+  <polygon points="435,290 440,265 445,290" fill="#022c22" />
+
+  <!-- Sun -->
+  <circle cx="500" cy="80" r="28" fill="#fef08a" opacity="0.9" />
+
+  <text x="300" y="375" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Himalayan Retreat: Clarity, Perspective &amp; Grounding</text>
+</svg>

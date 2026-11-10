@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#06b6d4" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="320" height="320" rx="160" fill="url(#bgGrad)" />
+  <circle cx="160" cy="140" r="110" fill="url(#halo)" />
+
+  <!-- Outer Tech Ring / Circuit Accents -->
+  <circle cx="160" cy="160" r="150" fill="none" stroke="url(#glowGrad)" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.6" />
+  <circle cx="160" cy="160" r="142" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.3" />
+
+  <!-- Stylized Figure Profile -->
+  <g filter="url(#shadow)">
+    <!-- Shoulders / Torso -->
+    <path d="M 68 285 C 75 228, 110 205, 160 205 C 210 205, 245 228, 252 285 Z" fill="#1e293b" stroke="url(#glowGrad)" stroke-width="2" />
+    
+    <!-- Collared Shirt / Tech Hoodie Inner Accent -->
+    <path d="M 130 208 L 160 248 L 190 208 Z" fill="#0f172a" />
+    <path d="M 140 214 L 160 238 L 180 214" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <!-- Head / Neck -->
+    <rect x="144" y="165" width="32" height="42" rx="12" fill="#cbd5e1" opacity="0.9" />
+    <ellipse cx="160" cy="132" rx="46" ry="54" fill="#e2e8f0" />
+
+    <!-- Modern Hair & Glasses Silhouette -->
+    <!-- Hair -->
+    <path d="M 112 126 C 112 85, 140 70, 164 70 C 195 70, 210 88, 208 122 C 200 102, 185 92, 160 92 C 132 92, 118 108, 112 126 Z" fill="#0f172a" />
+    <path d="M 112 126 C 110 110, 125 90, 155 86 C 185 82, 204 96, 208 116 C 196 104, 178 98, 152 100 C 130 102, 116 114, 112 126 Z" fill="#1e293b" />
+
+    <!-- Smart Glasses (Tech / Academic look) -->
+    <rect x="126" y="122" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="3" />
+    <rect x="166" y="122" width="28" height="20" rx="6" fill="none" stroke="#0f172a" stroke-width="3" />
+    <line x1="154" y1="130" x2="166" y2="130" stroke="#0f172a" stroke-width="3" />
+    <path d="M 118 128 L 126 128" stroke="#0f172a" stroke-width="2.5" />
+    <path d="M 194 128 L 202 128" stroke="#0f172a" stroke-width="2.5" />
+    
+    <!-- Subtle Lens Cyan Reflection -->
+    <rect x="130" y="125" width="20" height="4" rx="2" fill="#38bdf8" opacity="0.65" />
+    <rect x="170" y="125" width="20" height="4" rx="2" fill="#38bdf8" opacity="0.65" />
+
+    <!-- Confident Smile -->
+    <path d="M 148 162 Q 160 170 172 162" stroke="#475569" stroke-width="2.5" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Floating Node / AI Sparkles -->
+  <circle cx="70" cy="110" r="4" fill="#38bdf8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="250" cy="90" r="5" fill="#818cf8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="265" cy="180" r="3.5" fill="#34d399">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+</svg>

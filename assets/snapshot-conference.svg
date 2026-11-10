@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stageGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="beam" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#stageGrad)" />
+  <!-- Spotlight Beams -->
+  <polygon points="120,0 200,320 60,320" fill="url(#beam)" />
+  <polygon points="480,0 540,320 400,320" fill="url(#beam)" />
+  <!-- Big Presentation Screen -->
+  <rect x="140" y="50" width="320" height="170" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="2" />
+  <text x="300" y="95" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Building Safe Autonomous Coding Agents</text>
+  <text x="300" y="125" fill="#e2e8f0" font-family="-apple-system, sans-serif" font-size="12" text-anchor="middle">Secrets Isolation, Red-Teaming &amp; Runtime Sandboxing</text>
+  <rect x="200" y="145" width="200" height="45" rx="4" fill="#1e293b" />
+  <text x="300" y="172" fill="#34d399" font-family="monospace" font-size="11" text-anchor="middle">agentblindfold run --secure-env</text>
+  <!-- Stage Floor -->
+  <polygon points="0,320 600,320 600,400 0,400" fill="#020617" />
+  <line x1="0" y1="320" x2="600" y2="320" stroke="#334155" stroke-width="2" />
+  <!-- Speaker at Podium -->
+  <rect x="180" y="270" width="40" height="50" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <circle cx="200" cy="245" r="12" fill="#cbd5e1" />
+  <path d="M 190 262 C 190 255, 210 255, 210 262 Z" fill="#64748b" />
+  <line x1="205" y1="268" x2="200" y2="258" stroke="#38bdf8" stroke-width="1.5" />
+  <!-- Audience Silhouettes -->
+  <ellipse cx="80" cy="380" rx="20" ry="18" fill="#090d16" />
+  <ellipse cx="140" cy="375" rx="22" ry="20" fill="#090d16" />
+  <ellipse cx="220" cy="385" rx="24" ry="22" fill="#090d16" />
+  <ellipse cx="320" cy="378" rx="25" ry="21" fill="#090d16" />
+  <ellipse cx="420" cy="382" rx="23" ry="19" fill="#090d16" />
+  <ellipse cx="500" cy="375" rx="21" ry="18" fill="#090d16" />
+  <text x="300" y="380" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Keynote Session: Modern AI Engineering Conference</text>
+</svg>
