@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="#0f172a" />
+  <!-- Terminal Window -->
+  <rect x="40" y="30" width="520" height="320" rx="10" fill="url(#termBg)" stroke="#1e293b" stroke-width="2" />
+  <!-- Window Header -->
+  <rect x="40" y="30" width="520" height="34" rx="10" fill="#1e293b" />
+  <circle cx="65" cy="47" r="5" fill="#ef4444" />
+  <circle cx="85" cy="47" r="5" fill="#f59e0b" />
+  <circle cx="105" cy="47" r="5" fill="#10b981" />
+  <text x="300" y="52" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">aninda@conformist101: ~/agentblindfold</text>
+
+  <!-- Terminal Output -->
+  <text x="65" y="95" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13">$ cargo build --release</text>
+  <text x="65" y="120" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="12">   Compiling</text>
+  <text x="145" y="120" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="12">agentblindfold-core v0.4.2</text>
+  <text x="65" y="142" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="12">   Compiling</text>
+  <text x="145" y="142" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="12">secrets-redactor v0.2.1</text>
+  <text x="65" y="164" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="12">    Finished</text>
+  <text x="145" y="164" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="12">release [optimized] target(s) in 3.42s</text>
+
+  <text x="65" y="200" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13">$ agentblindfold run --target claude-code</text>
+  <text x="65" y="225" fill="#a855f7" font-family="'JetBrains Mono', monospace" font-size="12">[AgentBlindfold]</text>
+  <text x="195" y="225" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="12">Sandbox activated: 24 sensitive env variables scrubbed.</text>
+  <text x="65" y="247" fill="#a855f7" font-family="'JetBrains Mono', monospace" font-size="12">[AgentBlindfold]</text>
+  <text x="195" y="247" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">Real-time output stream filter attached [✓ Safe to execute]</text>
+  
+  <rect x="65" y="270" width="12" height="18" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="300" y="375" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Agent Blindfold: Protecting Secrets in Autonomous LLM Environments</text>
+</svg>

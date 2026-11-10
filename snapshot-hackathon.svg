@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgH)" />
+  <!-- Hackathon Banner -->
+  <rect x="80" y="30" width="440" height="50" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="2" />
+  <text x="300" y="62" fill="#a5b4fc" font-family="-apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Open Source AI Agents Hackathon · 1st Place Showcase</text>
+
+  <!-- Collaborative Table -->
+  <polygon points="60,330 540,330 480,210 120,210" fill="#374151" />
+  
+  <!-- Team Laptops -->
+  <rect x="160" y="225" width="60" height="40" rx="3" fill="#111827" stroke="#60a5fa" stroke-width="1.5" />
+  <polygon points="150,265 230,265 220,278 160,278" fill="#4b5563" />
+
+  <rect x="270" y="220" width="60" height="42" rx="3" fill="#111827" stroke="#34d399" stroke-width="1.5" />
+  <polygon points="260,262 340,262 330,275 270,275" fill="#4b5563" />
+
+  <rect x="380" y="225" width="60" height="40" rx="3" fill="#111827" stroke="#f472b6" stroke-width="1.5" />
+  <polygon points="370,265 450,265 440,278 380,278" fill="#4b5563" />
+
+  <!-- Whiteboard with System Diagrams -->
+  <rect x="170" y="95" width="260" height="95" rx="4" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" />
+  <!-- Architecture diagram scribbles -->
+  <rect x="190" y="115" width="50" height="25" rx="2" fill="none" stroke="#2563eb" stroke-width="2" />
+  <text x="215" y="132" fill="#2563eb" font-family="monospace" font-size="9" text-anchor="middle">Agent Core</text>
+  <line x1="240" y1="127" x2="275" y2="127" stroke="#4b5563" stroke-width="1.5" marker-end="url(#arrow)" />
+  <rect x="275" y="115" width="50" height="25" rx="2" fill="none" stroke="#059669" stroke-width="2" />
+  <text x="300" y="132" fill="#059669" font-family="monospace" font-size="9" text-anchor="middle">Sandbox</text>
+  <line x1="325" y1="127" x2="360" y2="127" stroke="#4b5563" stroke-width="1.5" />
+  <rect x="360" y="115" width="50" height="25" rx="2" fill="none" stroke="#7c3aed" stroke-width="2" />
+  <text x="385" y="132" fill="#7c3aed" font-family="monospace" font-size="9" text-anchor="middle">Tools/MCP</text>
+  <path d="M 300 140 L 300 165 L 215 165 L 215 140" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3 3" />
+  <text x="257" y="178" fill="#dc2626" font-family="monospace" font-size="8" text-anchor="middle">Secure Feedback Loop</text>
+
+  <text x="300" y="375" fill="#9ca3af" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Sprint Session: Multi-Agent Distributed Runtime Architecture</text>
+</svg>
